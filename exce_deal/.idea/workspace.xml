@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5faea9e6-0013-49ee-b5f9-bb7437b08662" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="83a89822-4575-4eb2-b372-4b7dc7eef392" value="Blue" />
+    </colors>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exception_deal@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exception_deal@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exception_deal@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="exception_deal: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nacos@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nacos@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nacos@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="nacos: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="exce_deal" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository_boot" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ynOfxZlw06AYhPxuuPCcEE1cnh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nybike" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.common.util" />
+      <recent name="com.example.moudle.project.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.common.projectData.Md5" />
+      <recent name="com.example.common.util" />
+      <recent name="com.example.common.projectData" />
+      <recent name="com.example.common.constant" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lzw\IdeaProjects\exce_deal\src\main\resources" />
+      <recent name="C:\Users\lzw\IdeaProjects\exce_deal\src\main\java\com\example\common\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="EncryptUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.common.projectData.Md5.EncryptUtil" />
+      <module name="exce_deal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.common.projectData.Md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.common.projectData.Md5.MD5Test" />
+      <module name="exce_deal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.common.projectData.Md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.common.projectData.JsonPropertyTest.Student" />
+      <module name="exce_deal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.common.projectData.JsonPropertyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sendEmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.common.projectData.sendEmain" />
+      <module name="exce_deal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.common.projectData.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceDealApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exce_deal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.moudle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.moudle" />
+      <option name="MAIN_CLASS_NAME" value="com.example.moudle.ExceDealApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceDealApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="exce_deal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.moudle.ExceDealApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.EncryptUtil" />
+        <item itemvalue="Application.MD5Test" />
+        <item itemvalue="JUnit.ExceDealApplicationTests.contextLoads" />
+        <item itemvalue="Application.sendEmain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.09027027" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5faea9e6-0013-49ee-b5f9-bb7437b08662" name="Default Changelist" comment="" />
+      <created>1632883993018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632883993018</updated>
+      <workItem from="1632883997789" duration="14230000" />
+      <workItem from="1632903425427" duration="4022000" />
+      <workItem from="1632965193190" duration="197000" />
+      <workItem from="1632965411186" duration="8105000" />
+      <workItem from="1632982055426" duration="9528000" />
+      <workItem from="1634089539635" duration="14301000" />
+      <workItem from="1634261606975" duration="16974000" />
+      <workItem from="1634605994816" duration="572000" />
+      <workItem from="1634606592401" duration="48000" />
+      <workItem from="1634606656357" duration="6333000" />
+      <workItem from="1634691987744" duration="47258000" />
+      <workItem from="1635124015538" duration="31374000" />
+      <workItem from="1635239457060" duration="10367000" />
+      <workItem from="1635296608469" duration="6353000" />
+      <workItem from="1635383939665" duration="22345000" />
+      <workItem from="1635417067117" duration="1000" />
+      <workItem from="1635417262526" duration="8290000" />
+      <workItem from="1635491353266" duration="11170000" />
+      <workItem from="1635560830774" duration="16000" />
+      <workItem from="1635568540573" duration="1762000" />
+      <workItem from="1635578302216" duration="10000" />
+      <workItem from="1635579860227" duration="8307000" />
+      <workItem from="1635602860631" duration="1833000" />
+      <workItem from="1635651474606" duration="1373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="197" key="#Project_Structure" timestamp="1634724750408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="539" y="197" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1634724750408" />
+    <state x="754" y="320" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1634093565736">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="754" y="320" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1634093565736" />
+    <state x="542" y="238" width="816" height="669" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632885012212">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="542" y="238" width="816" height="669" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1632885012212" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1634707793234">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1634707793234" />
+    <state x="648" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1635593570907">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="648" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635593570907" />
+    <state x="603" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1632893382781">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="603" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1632893382781" />
+    <state x="849" y="462" key="#debugger.expression.dialog" timestamp="1634715083028">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="849" y="462" key="#debugger.expression.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1634715083028" />
+    <state x="974" y="378" key="#xdebugger.evaluate" timestamp="1634716600864">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="974" y="378" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1634716600864" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1635421879596">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635421879596" />
+    <state x="947" y="272" key="FileChooserDialogImpl" timestamp="1635676200383">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="947" y="272" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1635676200383" />
+    <state width="1682" height="719" key="GridCell.Tab.0.bottom" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="719" key="GridCell.Tab.0.center" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="719" key="GridCell.Tab.0.left" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="719" key="GridCell.Tab.0.right" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="719" key="GridCell.Tab.1.bottom" timestamp="1635595081284">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081284" />
+    <state width="1682" height="719" key="GridCell.Tab.1.center" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="719" key="GridCell.Tab.1.left" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="719" key="GridCell.Tab.1.right" timestamp="1635595081283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="719" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1635595081283" />
+    <state width="1682" height="447" key="GridCell.Tab.2.bottom" timestamp="1635256246769">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="447" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1635256246769" />
+    <state width="1682" height="447" key="GridCell.Tab.2.center" timestamp="1635256246769">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="447" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1635256246769" />
+    <state width="1682" height="447" key="GridCell.Tab.2.left" timestamp="1635256246769">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="447" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1635256246769" />
+    <state width="1682" height="447" key="GridCell.Tab.2.right" timestamp="1635256246769">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1682" height="447" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1635256246769" />
+    <state width="1879" height="610" key="GridCell.Tab.3.bottom" timestamp="1634716915386">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1634716915386" />
+    <state width="1879" height="610" key="GridCell.Tab.3.center" timestamp="1634716915386">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1634716915386" />
+    <state width="1879" height="610" key="GridCell.Tab.3.left" timestamp="1634716915386">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1634716915386" />
+    <state width="1879" height="610" key="GridCell.Tab.3.right" timestamp="1634716915386">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1634716915386" />
+    <state width="1879" height="610" key="GridCell.Tab.4.bottom" timestamp="1634716916148">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916148" />
+    <state width="1879" height="610" key="GridCell.Tab.4.center" timestamp="1634716916148">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916148" />
+    <state width="1879" height="610" key="GridCell.Tab.4.left" timestamp="1634716916148">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916148" />
+    <state width="1879" height="610" key="GridCell.Tab.4.right" timestamp="1634716916148">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916148" />
+    <state width="1879" height="610" key="GridCell.Tab.5.bottom" timestamp="1634716916853">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.5.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916853" />
+    <state width="1879" height="610" key="GridCell.Tab.5.center" timestamp="1634716916853">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.5.center/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916853" />
+    <state width="1879" height="610" key="GridCell.Tab.5.left" timestamp="1634716916853">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.5.left/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916853" />
+    <state width="1879" height="610" key="GridCell.Tab.5.right" timestamp="1634716916853">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="610" key="GridCell.Tab.5.right/0.0.1920.1050@0.0.1920.1050" timestamp="1634716916853" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1632884627684">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1050@0.0.1920.1050" timestamp="1632884627684" />
+    <state x="592" y="171" key="Maven.ArtifactSearchDialog" timestamp="1635495510478">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="592" y="171" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635495510478" />
+    <state x="419" y="53" key="SettingsEditor" timestamp="1635579898199">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="419" y="53" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1635579898199" />
+    <state x="754" y="308" key="chooseDestDirectoryDialog" timestamp="1635395441176">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="754" y="308" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635395441176" />
+    <state width="1224" height="1048" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1635136667947">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1224" height="1048" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1050@0.0.1920.1050" timestamp="1635136667947" />
+    <state x="936" y="285" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1632884970711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="936" y="285" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1632884970711" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1635421879596">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635421879596" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1635416634484">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635416634484" />
+    <state x="740" y="450" key="com.intellij.ide.util.TipDialog" timestamp="1635651475556">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="450" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635651475556" />
+    <state x="623" y="250" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1635504402955">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="250" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1635504402955" />
+    <state x="469" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1634716888167">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="469" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050@0.0.1920.1050" timestamp="1634716888167" />
+    <state x="124" y="302" width="1672" height="553" key="new project wizard" timestamp="1632964522745">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="124" y="302" width="1672" height="553" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1632964522745" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1634704237018">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1634704237018" />
+    <state x="830" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1635504431488">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="830" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1635504431488" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="httpEntityDto" />
+        <watch expression="url" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exce_deal$ExceDealApplicationTests_contextLoads.ic" NAME="ExceDealApplicationTests.contextLoads Coverage Results" MODIFIED="1635136096685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.moudle.*</FILTER>
+    </SUITE>
+  </component>
+</project>
