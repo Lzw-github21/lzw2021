@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/user?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+
+    # 配置前端Thymeleaf模板引擎
+  main:
+    allow-bean-definition-overriding: true
+    # 打包末尾无/
+    prefix: classpath:/templates/
+    check-template-location: true
+    suffix: .html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    mode: HTML5
+    # 禁止后实现前端热部署
+    cache: false
+
+# 集成Mybatis
+mybatis:
+  # Mybatis映射
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hly.springBootSecurityMybatis.entity
+
+# 端口设置
+server:
+  port: 8081
+
