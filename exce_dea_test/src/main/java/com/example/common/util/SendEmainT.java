@@ -15,8 +15,7 @@ public class SendEmainT {
     private String myEmailSMTPHost = "smtp.126.com";
 
 
-
-    public void sendEmail(String receiveMailAccount,Object T) throws Exception{
+    public void sendEmail(String receiveMailAccount, Object T) throws Exception {
         // 1. 创建参数配置, 用于连接邮件服务器的参数配置
         Properties props = new Properties();                    // 参数配置
         props.setProperty("mail.transport.protocol", "smtp");   // 使用的协议（JavaMail规范要求）
@@ -29,7 +28,7 @@ public class SendEmainT {
         session.setDebug(true);
 
         // 3. 创建一封邮件
-        MimeMessage message = createMimeMessage(session, myEmailAccount, receiveMailAccount,T);
+        MimeMessage message = createMimeMessage(session, myEmailAccount, receiveMailAccount, T);
 
         // 4. 根据 Session 获取邮件传输对象
         Transport transport = session.getTransport();
@@ -57,7 +56,7 @@ public class SendEmainT {
     }
 
 
-    public  MimeMessage createMimeMessage(Session session, String sendMail, String receiveMail,Object object) throws Exception {
+    public MimeMessage createMimeMessage(Session session, String sendMail, String receiveMail, Object object) throws Exception {
         // 1. 创建一封邮件
         MimeMessage message = new MimeMessage(session);
 

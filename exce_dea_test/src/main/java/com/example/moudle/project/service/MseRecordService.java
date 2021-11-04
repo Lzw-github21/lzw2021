@@ -8,5 +8,6 @@ import java.util.List;
 public interface MseRecordService extends IService<MseRecord> {
 
     List<MseRecord> getMse();
+
     int updateMseRecord(MseRecord mseRecord);
 }

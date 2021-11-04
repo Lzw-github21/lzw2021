@@ -13,14 +13,15 @@ import java.util.List;
 public class MseRecordServiceImpl extends ServiceImpl<MseRecordMapper, MseRecord> implements MseRecordService {
 
     @Override
-    public List<MseRecord> getMse(){
+    public List<MseRecord> getMse() {
         return baseMapper.getMse();
     }
+
     @Override
-    public int updateMseRecord(MseRecord mseRecord){
+    public int updateMseRecord(MseRecord mseRecord) {
         LambdaUpdateWrapper<MseRecord> queryWrapper = new LambdaUpdateWrapper<>();
-        queryWrapper.eq(MseRecord::getId,mseRecord.getId());
-        int a = baseMapper.update(mseRecord,queryWrapper);
+        queryWrapper.eq(MseRecord::getId, mseRecord.getId());
+        int a = baseMapper.update(mseRecord, queryWrapper);
         return a;
     }
 }

@@ -10,11 +10,11 @@ public enum ApiStateEnum {
     /**
      * 全局的响应状态枚举
      */
-    API_GLOBAL_S(Constant.SUCCESS,"响应成功"),
-    API_GLOBAL_F(Constant.FAIL,"服务器内部错误，请联系管理员"),
-    API_GLOBAL_TIP(Constant.AUTH_FAIL,"鉴权失败"),
-    API_GLOBAL_PARAM_ERROR(Constant.PARAM_ERROR,"参数错误"),
-    API_GLOBAL_NODATA(Constant.SUCCESS,"暂无数据"),
+    API_GLOBAL_S(Constant.SUCCESS, "响应成功"),
+    API_GLOBAL_F(Constant.FAIL, "服务器内部错误，请联系管理员"),
+    API_GLOBAL_TIP(Constant.AUTH_FAIL, "鉴权失败"),
+    API_GLOBAL_PARAM_ERROR(Constant.PARAM_ERROR, "参数错误"),
+    API_GLOBAL_NODATA(Constant.SUCCESS, "暂无数据"),
     ;
 
     private int code;
@@ -28,7 +28,7 @@ public enum ApiStateEnum {
 
     public static String getMsg(int code) {
         for (ApiStateEnum stateEnum : values()) {
-            if (stateEnum.getCode()==code) {
+            if (stateEnum.getCode() == code) {
                 return stateEnum.getMsg();
             }
         }

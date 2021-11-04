@@ -19,8 +19,8 @@ public interface UsersMapper extends BaseMapper<Users> {
     List<Users> getNameUser();
 
     @Update("update exception_infor set task_type = #{taskType} where task_name = #{taskName}")
-    void setTaskType(@RequestParam("taskType") String taskType,@RequestParam("taskName") String taskName);
+    void setTaskType(@RequestParam("taskType") String taskType, @RequestParam("taskName") String taskName);
 
     @Update("update exception_infor set is_normal = #{status},test_time=NOW() where task_name = #{url}")
-    void setTaskIsNormal(String url,String status);
+    void setTaskIsNormal(String url, String status);
 }

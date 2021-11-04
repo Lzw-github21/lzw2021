@@ -27,7 +27,7 @@ public class MseRecord {
 
     private String taskName;
 
-    private String  status;
+    private String status;
 
     private String message;
 }

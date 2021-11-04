@@ -39,32 +39,32 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
     private MseRecordService mseRecordService;
 
     @Override
-    public List<Users> getName(){
+    public List<Users> getName() {
         List<Users> list = new ArrayList<>();
         list = baseMapper.getNameUser();
         return list;
     }
 
     @Override
-    public Users getOneUser(Integer id){
+    public Users getOneUser(Integer id) {
 
         Users users = baseMapper.selectById(id);
         return users;
     }
 
     @Override
-    public int updataExecptionInfor(Users users){
+    public int updataExecptionInfor(Users users) {
 
         LambdaUpdateWrapper<Users> queryWrapper = new LambdaUpdateWrapper<>();
-        queryWrapper.eq(Users::getId,users.getId());
-        int a = baseMapper.update(users,queryWrapper);
+        queryWrapper.eq(Users::getId, users.getId());
+        int a = baseMapper.update(users, queryWrapper);
         return a;
     }
 
     @Override
-    public Users getOneByUrl(String url){
+    public Users getOneByUrl(String url) {
         LambdaUpdateWrapper<Users> queryWrapper = new LambdaUpdateWrapper<>();
-        queryWrapper.eq(Users::getTaskName,url);
+        queryWrapper.eq(Users::getTaskName, url);
         Users a = baseMapper.selectOne(queryWrapper);
         return a;
     }
@@ -73,8 +73,8 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
     /**
      * 监测任务
      */
-    public void doGetTestOne(String url,String personId) throws Exception {
-        Users users =getOneByUrl(url);
+    public void doGetTestOne(String url, String personId) throws Exception {
+        Users users = getOneByUrl(url);
         MseRecord mseRecord = new MseRecord();
         SendEmainT send = new SendEmainT();
         //send.sendEmail("1104563335@qq.com","接口异常，请尽快处理");
@@ -89,29 +89,28 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
             response = httpClient.execute(httpGet);
             String status = String.valueOf(response.getStatusLine().getStatusCode());
 
-            if(status.equals("200")){
-                usersService.setTaskIsNormal(url,"200");
-            }
-            else {
-                usersService.setTaskIsNormal(url,String.valueOf(response.getStatusLine().getStatusCode()));
+            if (status.equals("200")) {
+                usersService.setTaskIsNormal(url, "200");
+            } else {
+                usersService.setTaskIsNormal(url, String.valueOf(response.getStatusLine().getStatusCode()));
                 mseRecord.setId(users.getId());
                 mseRecord.setTaskName(url);
                 mseRecord.setStatus(String.valueOf(response.getStatusLine().getStatusCode()));
                 mseRecord.setMessage("访问错误");
                 mseRecord.setCreateTime(LocalDateTime.now());
                 mseRecordService.save(mseRecord);
-                send.sendEmail(users.getPersonId(),String.valueOf(mseRecord));
+                send.sendEmail(users.getPersonId(), String.valueOf(mseRecord));
             }
         } catch (Exception e) {
-            usersService.setTaskIsNormal(url,"无响应");
+            usersService.setTaskIsNormal(url, "无响应");
             mseRecord.setId(users.getId());
             mseRecord.setTaskName(url);
             mseRecord.setStatus("无响应");
             mseRecord.setMessage("访问错误");
             mseRecord.setCreateTime(LocalDateTime.now());
             mseRecordService.save(mseRecord);
-            usersService.setTaskType("2",url);
-            send.sendEmail(users.getPersonId(),String.valueOf(mseRecord)+"");
+            usersService.setTaskType("2", url);
+            send.sendEmail(users.getPersonId(), String.valueOf(mseRecord) + "");
         } finally {
             try {
                 // 释放资源
@@ -130,15 +129,15 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
     /**
      * 创建监测线程
      */
-    public void testRunnable(String url,String personId) {
+    public void testRunnable(String url, String personId) {
         Runnable runnable = new Runnable() {
             @SneakyThrows
             @Override
             public void run() {
-                while(flag){
+                while (flag) {
 
                     try {
-                        doGetTestOne(url,personId);
+                        doGetTestOne(url, personId);
                         System.out.println(url);
                         System.out.println("123");
                         Thread.sleep(7000);
@@ -158,8 +157,8 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
      * 设置监测状态，将状态修改为正在监测
      */
     @Override
-    public void setTaskType(String taskType,String taskName){
-        baseMapper.setTaskType(taskType,taskName);
+    public void setTaskType(String taskType, String taskName) {
+        baseMapper.setTaskType(taskType, taskName);
     }
 
     /**
@@ -169,6 +168,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
     public class ApplicationRunnerImpl implements ApplicationRunner {
 
         int data[] = new int[3];
+
         @Override
         public void run(ApplicationArguments args) throws Exception {
             StartTestTask();
@@ -177,7 +177,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
 
     /**
      * 开启所有监测任务
-      */
+     */
     @Override
     public void StartTestTask() {
 
@@ -195,8 +195,8 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
         //(3)创建监测线程
         flag = true;
         System.out.println("监测线程启动");
-        for (int i = 0; i <usersList.size() ; i++) {
-            testRunnable(usersList.get(i).getTaskName(),usersList.get(i).getPersonId());
+        for (int i = 0; i < usersList.size(); i++) {
+            testRunnable(usersList.get(i).getTaskName(), usersList.get(i).getPersonId());
         }
     }
 
@@ -204,7 +204,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
      * 设置探测是否正常，写入最新探测时间
      */
     @Override
-    public void setTaskIsNormal(String url,String status){
-        baseMapper.setTaskIsNormal(url,status);
+    public void setTaskIsNormal(String url, String status) {
+        baseMapper.setTaskIsNormal(url, status);
     }
 }
