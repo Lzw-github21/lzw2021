@@ -10,7 +10,7 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class HttpEntityDto{
+public class HttpEntityDto {
     private String status;
     private String taskName;
     private String message;

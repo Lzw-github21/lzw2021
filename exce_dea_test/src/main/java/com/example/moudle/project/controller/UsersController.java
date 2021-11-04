@@ -22,38 +22,38 @@ public class UsersController {
     UsersService usersService;
 
     @GetMapping("/page")
-    public Result<Object> get(){
+    public Result<Object> get() {
         List<Users> data = userService.getName();
         return new Result<>().ok(data);
     }
 
     @PostMapping("/add")
-    public Result<Users> add(@RequestBody(required = false) Users users){
+    public Result<Users> add(@RequestBody(required = false) Users users) {
         userService.save(users);
         userService.StartTestTask();
         return new Result<>();
     }
 
     @PostMapping("/update")
-    public Result<Users> updataExecptionInfor (@RequestBody Users users){
+    public Result<Users> updataExecptionInfor(@RequestBody Users users) {
         userService.updataExecptionInfor(users);
         usersService.StartTestTask();
         return new Result<>();
     }
 
     @DeleteMapping("/delete")
-    public Result<Users> delete(@RequestParam int id){
+    public Result<Users> delete(@RequestParam int id) {
         userService.removeById(id);
         usersService.StartTestTask();
         return new Result<>();
     }
 
     @GetMapping("/getTestHTTP")
-    public String getTestHTTP(HttpServletRequest httpServletRequest){
+    public String getTestHTTP(HttpServletRequest httpServletRequest) {
 
         String requestAppKey = httpServletRequest.getParameter("appKey");
-            Cookie[] s = httpServletRequest.getCookies();
-            String string = httpServletRequest.getRequestedSessionId();
+        Cookie[] s = httpServletRequest.getCookies();
+        String string = httpServletRequest.getRequestedSessionId();
         String string2 = httpServletRequest.getMethod();
         httpServletRequest.changeSessionId();
         return string;

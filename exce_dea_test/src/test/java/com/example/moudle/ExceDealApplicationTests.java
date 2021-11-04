@@ -10,8 +10,8 @@ class ExceDealApplicationTests {
 
     @SneakyThrows
     @Test
-    void contextLoads(){
+    void contextLoads() {
         SendEmainT send = new SendEmainT();
-        send.sendEmail("1104563335@qq.com","接口异常，请尽快处理");
+        send.sendEmail("1104563335@qq.com", "接口异常，请尽快处理");
     }
 }

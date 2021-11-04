@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ExceDealApplication {
     public static void main(String[] args) {
         SpringApplication.run(ExceDealApplication.class, args);
-        for (int i = 0; i <30 ; i++) {
+        for (int i = 0; i < 30; i++) {
 
         }
     }

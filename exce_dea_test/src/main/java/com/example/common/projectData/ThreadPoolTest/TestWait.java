@@ -12,6 +12,7 @@ import java.util.List;
 /**
  * 测试 wait和sleep方法
  * 按照网上说的：wait会释放锁，sleep不会释放锁，写个案例执行下。
+ *
  * @author 陈康明 qq：1123181523
  * @date 2019年3月10日
  */
@@ -29,7 +30,7 @@ public class TestWait {
         w3.start();
     }
 
-    class WaitSleep extends Thread{
+    class WaitSleep extends Thread {
 
         @Override
         public void run() {
@@ -37,7 +38,7 @@ public class TestWait {
                 try {
                     SimpleDateFormat dateFormat = new SimpleDateFormat("hhhhhhhh");
                     System.out.println((dateFormat.format(new Date())));
-                    System.out.println(Thread.currentThread().getName()+"当前系统时间："+new SimpleDateFormat("hh:mm:ss").format(new Date()));
+                    System.out.println(Thread.currentThread().getName() + "当前系统时间：" + new SimpleDateFormat("hh:mm:ss").format(new Date()));
                     // 等待 10 秒， 看其他对象是否拿到锁
                     list.wait(10000);
                     //Thread.sleep(10000);

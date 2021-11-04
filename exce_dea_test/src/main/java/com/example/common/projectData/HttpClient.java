@@ -58,9 +58,9 @@ public class HttpClient {
             //System.out.println("response为"+response);
             // 从响应模型中获取响应实体
             //System.out.println("response为"+response.getStatusLine().getStatusCode());
-            System.out.println("response为"+ response.getStatusLine().getStatusCode());
+            System.out.println("response为" + response.getStatusLine().getStatusCode());
             HttpEntity responseEntity = response.getEntity();
-            System.out.println("response实体为"+responseEntity);
+            System.out.println("response实体为" + responseEntity);
             //System.out.println("响应状态为:" + response.getStatusLine());
             httpEntityDto.setStatus(response.getStatusLine().toString());
             if (responseEntity != null) {
@@ -445,9 +445,7 @@ public class HttpClient {
 
 
     /**
-     *
      * 发送流
-     *
      */
     public void test5() {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();

@@ -6,9 +6,9 @@ public class UrlTest {
 
             @Override
             public void run() {
-                while(true){
-                   // HttpClient httpClient = new HttpClient();
-                   // httpClient.doGetTestOne(url);
+                while (true) {
+                    // HttpClient httpClient = new HttpClient();
+                    // httpClient.doGetTestOne(url);
                     try {
 
                         Thread.sleep(3900);
@@ -25,6 +25,7 @@ public class UrlTest {
         thread.start();
 
     }
+
     public static void main(String[] args) {
         testRunnable("http://localhost:18850/hello/getOne");
     }

@@ -58,8 +58,10 @@ public class EncryptUtil {
         return new String(Base64.encodeBase64(md.digest()), StandardCharsets.UTF_8);
 
     }
+
     /**
      * UUID生成唯一标识
+     *
      * @return
      */
     public String randomUUID() {

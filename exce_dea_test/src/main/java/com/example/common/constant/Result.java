@@ -32,7 +32,7 @@ public class Result<T> implements Serializable {
         return this;
     }
 
-    public boolean success(){
+    public boolean success() {
         return code == 200;
     }
 

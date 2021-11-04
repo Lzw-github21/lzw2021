@@ -15,9 +15,9 @@ public interface UsersService extends IService<Users> {
 
     Users getOneByUrl(String url);
 
-    void setTaskType(String taskType,String taskName);
+    void setTaskType(String taskType, String taskName);
 
-    void StartTestTask( );
+    void StartTestTask();
 
-    void setTaskIsNormal(String url,String status);
+    void setTaskIsNormal(String url, String status);
 }
