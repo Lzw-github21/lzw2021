@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-aop" />
+        <module name="springboot-cors" />
+        <module name="springboot-admin-client" />
+        <module name="springboot-admin-server" />
+        <module name="springboot-security" />
+        <module name="springboot-exceptionhandler" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="parent" target="1.8" />
+      <module name="springboot-admin-client" target="1.8" />
+      <module name="springboot-admin-server" target="1.8" />
+      <module name="springboot-aop" target="1.8" />
+      <module name="springboot-cors" target="1.8" />
+      <module name="springboot-exceptionhandler" target="1.8" />
+      <module name="springboot-security" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-admin-client" options="-parameters" />
+      <module name="springboot-admin-server" options="-parameters" />
+      <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-cors" options="-parameters" />
+      <module name="springboot-exceptionhandler" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
+    </option>
   </component>
 </project>

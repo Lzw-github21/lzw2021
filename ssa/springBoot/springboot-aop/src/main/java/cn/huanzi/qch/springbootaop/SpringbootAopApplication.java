@@ -1,5 +1,7 @@
 package cn.huanzi.qch.springbootaop;
 
+import lombok.val;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,8 +15,13 @@ public class SpringbootAopApplication {
         SpringApplication.run(SpringbootAopApplication.class, args);
     }
 
+    @Autowired
+    Serve serve;
+
     @RequestMapping("/")
-    public String index(){
-        return "欢迎访问 springboot-aop";
+    public String index() throws Exception {
+
+        serve.test();
+        return "1";
     }
 }

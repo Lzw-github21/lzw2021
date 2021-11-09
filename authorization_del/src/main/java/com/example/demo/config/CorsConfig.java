@@ -10,6 +10,7 @@ import org.springframework.web.filter.CorsFilter;
 /**
  * @author lhf
  * @since v1.0
+ * 跨域配置
  */
 @Configuration
 public class CorsConfig {

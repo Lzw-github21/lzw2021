@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin-client/springboot-admin-client.iml" filepath="$PROJECT_DIR$/springboot-admin-client/springboot-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin-server/springboot-admin-server.iml" filepath="$PROJECT_DIR$/springboot-admin-server/springboot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cors/springboot-cors.iml" filepath="$PROJECT_DIR$/springboot-cors/springboot-cors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-exceptionhandler/springboot-exceptionhandler.iml" filepath="$PROJECT_DIR$/springboot-exceptionhandler/springboot-exceptionhandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
     </modules>
   </component>
 </project>

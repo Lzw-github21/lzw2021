@@ -10,7 +10,17 @@ import java.util.Date;
 @Slf4j
 @Component
 public class TestScheduler {
-
+//    /**
+//     * 每隔5秒执行一次：5****?
+//            *
+//            *每隔1分钟执行一次：0*/1***?
+//            *
+//            *每天23点执行一次：0 0 23**?
+//            *
+//            *每天凌晨1点执行一次：0 0 1**?
+//            *
+//            *每月1号凌晨1点执行一次：0 0 1 1*?
+//     */
     @Scheduled(cron="0/30 * * * * ?")
     private void test(){
         //在能被30整除的秒数执行一次

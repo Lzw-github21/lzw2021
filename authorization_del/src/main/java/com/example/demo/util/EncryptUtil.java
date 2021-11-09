@@ -145,11 +145,12 @@ public class EncryptUtil {
         return new String(encrypted, StandardCharsets.UTF_8);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         EncryptUtil encryptUtil = new EncryptUtil();
         System.out.println(encryptUtil.AESEncrypt("lizhiwei"));
-
         System.out.println(encryptUtil.AESDecrypt("hBa4YdfsjxZIJ/kR9pkJ5g=="));
+        System.out.println(encryptUtil.getSign("lizhiwei"));
+
     }
 
 }

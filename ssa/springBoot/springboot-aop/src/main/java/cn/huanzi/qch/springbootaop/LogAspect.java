@@ -20,7 +20,8 @@ public class LogAspect {
     /**
      * Pointcut 切入点
      */
-    @Pointcut("execution(public * cn.huanzi.qch.springbootaop.SpringbootAopApplication.index(..))")
+    @Pointcut("execution(public * cn.huanzi.qch.springbootaop.Serve.*(..))")
+
     public void webLog(){}
 
     /**
@@ -43,7 +44,7 @@ public class LogAspect {
      * 方法执行前
      */
     @Before(value = "webLog()")
-    public void before(JoinPoint joinPoint){
+    public void before(JoinPoint joinPoint) {
         System.out.println("2、Before：方法执行开始...");
         // 接收到请求，记录请求内容
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
@@ -73,6 +74,7 @@ public class LogAspect {
     public void doAfterReturning(Object ret){
         // 处理完请求，返回内容
         System.out.println("5、AfterReturning：方法的返回值 : " + ret);
+
     }
 
     /**

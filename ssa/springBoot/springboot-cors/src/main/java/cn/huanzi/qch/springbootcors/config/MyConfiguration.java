@@ -21,4 +21,19 @@ public class MyConfiguration {
             }
         };
     }
+//    配置成允许所有域调用所有方法
+
+//    @Bean
+//    public WebMvcConfigurer corsConfigurer() {
+//        return new WebMvcConfigurer() {
+//            @Override
+//            public void addCorsMappings(CorsRegistry registry) {
+//                registry.addMapping("/**")
+//                        .allowedOrigins("*")
+//                        .allowedMethods("*")
+//                        .allowedHeaders("*")
+//                        .allowCredentials(true).maxAge(3600);
+//            }
+//        };
+//    }
 }
