@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-cors/springboot-cors.iml" filepath="$PROJECT_DIR$/springboot-cors/springboot-cors.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-exceptionhandler/springboot-exceptionhandler.iml" filepath="$PROJECT_DIR$/springboot-exceptionhandler/springboot-exceptionhandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-timer/springboot-timer.iml" filepath="$PROJECT_DIR$/springboot-timer/springboot-timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
     </modules>
   </component>
 </project>

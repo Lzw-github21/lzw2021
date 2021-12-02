@@ -11,6 +11,9 @@ public class SpringbootTimerApplicationTests {
 
     @Test
     public void contextLoads() {
+
+        TestScheduler2 testScheduler2 = new TestScheduler2();
+        testScheduler2.getAllTbTask();
     }
 
 }

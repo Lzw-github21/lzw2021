@@ -25,4 +25,14 @@ public class TbTask {
     private String taskClass;//定时任务的Runnable任务类完整路径
     private Date updateTime;//更新时间
     private Date createTime;//创建时间
+
+//    @Id
+//    private String task_id;//定时任务id
+//    private String task_name;//定时任务名称
+//    private String task_desc;//定时任务描述
+//    private String task_exp;//定时任务Cron表达式
+//    private Integer task_status;//定时任务状态，0停用 1启用
+//    private String task_class;//定时任务的Runnable任务类完整路径
+//    private Date update_time;//更新时间
+//    private Date create_time;//创建时间
 }

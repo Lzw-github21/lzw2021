@@ -27,10 +27,10 @@ public class TestScheduler2 {
     public static ConcurrentHashMap<String,ScheduledFuture> runTasks = new ConcurrentHashMap<>(10);
 
     //线程池任务调度
-    private ThreadPoolTaskScheduler threadPoolTaskScheduler = new ThreadPoolTaskScheduler();
+    public ThreadPoolTaskScheduler threadPoolTaskScheduler = new ThreadPoolTaskScheduler();
 
     @Autowired
-    private TbTaskRepository tbTaskRepository;
+    public TbTaskRepository tbTaskRepository;
 
     /**
      * 初始化线程池任务调度
@@ -46,10 +46,11 @@ public class TestScheduler2 {
     /**
      * 获取所有数据库里的定时任务
      */
-    private void getAllTbTask(){
+    public void getAllTbTask(){
         //查询所有，并put到tasks
         TestScheduler2.tasks.clear();
         List<TbTask> list = tbTaskRepository.findAll();
+        System.out.println("haha");;
         list.forEach((task)-> TestScheduler2.tasks.put(task.getTaskId(),task));
     }
 

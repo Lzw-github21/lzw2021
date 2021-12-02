@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/springboot-admin-server/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-admin-client/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-exceptionhandler/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-timer/pom.xml" />
       </list>
     </option>
   </component>

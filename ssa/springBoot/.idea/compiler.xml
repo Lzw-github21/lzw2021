@@ -10,7 +10,9 @@
         <module name="springboot-aop" />
         <module name="springboot-cors" />
         <module name="springboot-admin-client" />
+        <module name="springboot-websocket" />
         <module name="springboot-admin-server" />
+        <module name="springboot-timer" />
         <module name="springboot-security" />
         <module name="springboot-exceptionhandler" />
       </profile>
@@ -23,6 +25,8 @@
       <module name="springboot-cors" target="1.8" />
       <module name="springboot-exceptionhandler" target="1.8" />
       <module name="springboot-security" target="1.8" />
+      <module name="springboot-timer" target="1.8" />
+      <module name="springboot-websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +37,8 @@
       <module name="springboot-cors" options="-parameters" />
       <module name="springboot-exceptionhandler" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
+      <module name="springboot-timer" options="-parameters" />
+      <module name="springboot-websocket" options="-parameters" />
     </option>
   </component>
 </project>
